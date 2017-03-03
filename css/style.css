@@ -1,0 +1,82 @@
+body {
+	background-image: url("../Images/texture.png");
+	font-family: "Roboto Condensed"
+}
+
+#footer {
+	background-color: black ;
+	color: #949494;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+#footer a {
+	color: #949494;
+}
+
+#footer a:hover {
+	color: #d8d6d6;
+}
+
+.social a {
+	font-size: 25px;
+}
+
+#wrapper {
+	background-image: url("../Images/piment.jpg");
+	height: 550px;
+	background-size: cover;
+	text-align: center;
+	padding-top:150px;
+	color:white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#wrapper h1 {
+	font-size: 72px;
+
+}
+
+#wrapper h2 {
+		margin-bottom: 1em;
+}
+
+.padded {
+	margin-bottom: 80px;
+	margin-top:50px;
+}
+
+.feature img {
+	margin-top: 2em;
+}
+
+.navbar-transparent {
+	background-color: rgba(0,0, 0, 0.5);
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
